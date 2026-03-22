@@ -53,7 +53,6 @@ function displayResult() {
   }
 
   let result = "";
-
   if (topSeason === "spring") {
     result = "You are Spring!";
   } else if (topSeason === "summer") {

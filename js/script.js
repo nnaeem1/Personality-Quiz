@@ -20,7 +20,7 @@ questionBlocks.forEach(function(block) {
 
 function displayResult() {
 
-    if (Object.kets(userAnswers).length < 5) {
+    if (Object.keys(userAnswers).length < 5) {
         alert("Please answer all 5 questions before seeing your result!");
         return;
     }
@@ -60,11 +60,11 @@ function displayResult() {
 
   let result = "";
   if (topSeason === "spring") {
-    result = "You are Spring 🌸!";
-  } else if (topSeason === "summer ☀️") {
-    result = "You are Summer!";
-  } else if (topSeason === "autumn 🍂") {
-    result = "You are Autumn";
+    result = "You are Spring! 🌸";
+  } else if (topSeason === "summer") {
+    result = "You are Summer! ☀️";
+  } else if (topSeason === "autumn") {
+    result = "You are Autumn! 🍂";
   } else if (topSeason === "winter") {
     result = "You are Winter ❄️!"
   }
